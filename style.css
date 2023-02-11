@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", Arial, Helvetica, sans-serif
+}
+/*navigation bar */
+.nav{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.nav-items{
+    display: flex;
+    justify-content: flex-end;  
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+.nav-item{
+    color:#E5E7EB;
+    text-decoration: none;
+    padding: 2rem;
+    font-size: 18px;
+    transition: all .2s ease;
+}
+
+.nav-item:hover{
+    background-color: #E5E7EB;
+    color:#1F2937;
+}
+
+#logo{
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+}
+
+.logos{
+    display: flex;
+    justify-content: flex-start;
+    gap:10px;
+    align-items: center;
+    flex:1;
+    min-width: 320px;
+}
+.logos h1{
+    color:#F9FAF8;
+    font-weight: 900;
+    font-size: 32px;
+} 
+
+/*Header section*/
+
+.header-image{
+    width:420px;
+    height: 420px;
+    opacity: .7;
+    border-radius: 60%;
+}
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap:32px;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.header-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+.header-head{
+    color:#F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.header-text{
+    max-width: 460px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sing-up{
+    background-color: #3882f6;
+    padding: 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color:#E5E7EB;
+    font-weight: 700;
+    font-size: 18px;
+    transition: all .2s ease;
+}
+
+.sing-up:hover{
+    background-color: #E5E7EB;
+    color:#3882f6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 720px) {
+   
+
+    .nav{
+        flex-direction: column;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+    .logos{
+        justify-content: center;
+    }
+  }
