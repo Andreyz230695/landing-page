@@ -126,7 +126,7 @@
     color:#1F2937;
     padding: 2rem;
     font-weight: 900;
-    text-align: center;
+    text-align: center ;
 }
 
 .picture-list{
@@ -280,14 +280,27 @@
     font-size: 18px;
     font-weight: 400;
     padding: .5rem;
+    text-align: center;
+}
+.left h2{
+    color: #F9FAF8;
+    font-weight: 900;
+    text-align: center;
+}
+
+.left{
+    padding: 1rem;
+    text-align: center;
 }
 
 .right{
     text-align: center;
+    padding: 1rem;
 }
 .right h2{
     color: #F9FAF8;
     font-weight: 900;
+    text-align: center;
 }
 
 
@@ -296,6 +309,7 @@
     font-size: 18px;
     font-weight: 400;
     padding: .5rem; 
+    text-align: center;
 }
 
 .right p a{
@@ -304,12 +318,51 @@
     color: #F9FAF8;
     font-weight: bolder;
     transition: all 0.2s ease;
+    text-align: center;
 }
 .right p a:hover{
     background-color: #F9FAF8;
     color:#1F2937;
 }
 
+.modal {
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #1f2937;
+    text-align: center;
+    font-size: 30px;
+    user-select: none;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.overlay.active{
+    display: block;
+}
 
 /*copyrights*/
 .copyrights{
@@ -317,6 +370,7 @@
     background-color: #1F2937;
     justify-content: center;
     align-content: center;
+    margin-top: 1rem;
 
 }
 

@@ -72,22 +72,22 @@
     </div>
 
     <!--contact banner-->
-    <div class="banner">
+    <div id="contact" class="banner">
         <div class="blue">
             <div class="blue-left">
                 <h2>Call to action! Time to redecorate!</h2>
                 <p>Get in contact so we can help you build your dream home</p>
             </div>
             <div class="blue-right">
-                <a href="#contact">Contact us</a>
+                <a onclick="openModal()">Contact us</a>
             </div>
         </div>
     </div>
 
     <!--contact footer-->
-    <div class="contact">
-        <div id="contact" class="left">
-            <p>Address: Bl. Iuliu Maniu XXXX</p>
+    <div id="modal" class="modal">
+        <div class="left">
+            <h2>Messages</h2>
             <p>Phone: +407xxxxxxx</p>
             <p>WhatsApp: +407xxxxxxx</p>
             <p>Email:spectrastudio22@gmail.com</p>
@@ -105,6 +105,8 @@
     <div class="copyrights">
         <h4>copyrights©SpectraStudio 2023</h4>
     </div>
+<div id="overlay" class="overlay" onclick="closeModal()"></div>
 
+<script src="./script.js"></script>
 </body>
 </html>
