@@ -324,7 +324,12 @@
 
 @media only screen and (max-width: 720px) {
    
-
+    .nav-items{
+        display: none;
+    }
+    .logos{
+        display: none;
+    }
     .nav{
         flex-direction: column;
     }
