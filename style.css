@@ -83,12 +83,14 @@
     color:#F9FAF8;
     font-weight: 900;
     font-size: 48px;
+    text-align: center;
 }
 
 .header-text{
     max-width: 460px;
     font-size: 18px;
     color: #E5E7EB;
+    text-align: center;
 }
 
 .sing-up{
@@ -124,6 +126,7 @@
     color:#1F2937;
     padding: 2rem;
     font-weight: 900;
+    text-align: center;
 }
 
 .picture-list{
@@ -170,6 +173,7 @@
     font-size:36px;
     color: #1f2937;  
     padding: 5rem;
+    text-align: center;
 
 }
 
