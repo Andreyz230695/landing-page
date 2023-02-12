@@ -107,14 +107,157 @@
 }
 
 
+/*Image section*/
+.pictures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.info{
+    font-size: 36px;
+    color:#1F2937;
+    padding: 2rem;
+    font-weight: 900;
+}
+
+.picture-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap:1rem;
+}
+
+.ls-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4rem;
+/*    border:10px solid #009FBD;
+    border-radius: 10px;
+ */   
+}
+.img{
+    max-width: 180px;
+}
+
+.img-info{
+    padding: .5rem;
+    max-width: 180px;
+    text-align: center;
+
+}
 
 
+/*quotes*/
 
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 320px;
+}
+.qt{
+    font-size:36px;
+    color: #1f2937;  
+    padding: 5rem;
 
+}
 
+/*gallery*/
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
 
+.gl-info{
+    font-size: 36px;
+    color:#1F2937;
+    padding: 2rem;
+    font-weight: bolder;
+}
 
+.gallery-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap:5rem;
+}
 
+.gl-img{
+    width: 360px;
+    height: 260px;
+    border-radius: 10px;
+    padding: 1rem;
+    transition: all .2s ease;
+    border-radius: 10px;
+}
+.gl-img:hover{
+    padding:0;
+}
+
+/*contact banner*/
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blue{
+    background-color:#3882f6;
+    padding: 2rem;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:2rem;
+}
+
+.blue-left h2{
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.blue-left p{
+    color:#F9FAF8;
+    font-size:18px;
+
+}
+
+.blue-right a{
+    border: 3px solid #F9FAF8;
+    color: #F9FAF8;
+    padding: .5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    transition: all 0.2s ease;
+}
+
+.blue-right a:hover{
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #F9FAF8;
+    color:#3882f6;
+}
 
 
 
@@ -130,5 +273,9 @@
     }
     .logos{
         justify-content: center;
+    }
+
+    .qt{
+        font-size: 20px;
     }
   }
